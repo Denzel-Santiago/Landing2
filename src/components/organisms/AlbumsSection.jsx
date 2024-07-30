@@ -13,7 +13,7 @@ const AlbumsSection = () => {
       <div className="cards-container">
         {albums.map((album, index) => (
           <Card key={index} album={album} />
-        ))}
+        ))}c
       </div>
     </section>
   );
